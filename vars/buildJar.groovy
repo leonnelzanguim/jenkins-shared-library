@@ -2,5 +2,5 @@
 
 def call() {
   echo 'building the application...'
-  sh 'mvn package'
+  sh 'mvn -f java-maven-app/pom.xml package'
 }
